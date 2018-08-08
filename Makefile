@@ -18,3 +18,7 @@ runserver:
 shell:
 	@echo $(TAG)Running Shell $(END)
 	$(call django-command, shell)
+
+test:
+	@echo $(TAG)Testing$(END)
+	$(call django-command, test django_practice_1)
