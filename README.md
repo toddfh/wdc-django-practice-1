@@ -21,6 +21,12 @@ The structure of the whole Django project is built for you. Your job is to imple
 
 Running the development server with `$ make runserver`, you'll be able to test your views in the browser pointing to `http://localhost:8080/<some-path>`
 
+In order to check if you've successfully completed this task you can run the following command. Check code inside `tests.py` if you want to see how a (simple) test is written in Django.
+
+```bash
+$ make test
+```
+
 
 #### 1. hello_world view:
 
