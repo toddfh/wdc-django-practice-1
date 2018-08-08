@@ -21,18 +21,18 @@ The structure of the whole Django project is built for you. Your job is to imple
 
 Running the development server with `$ make runserver`, you'll be able to test your views in the browser pointing to `http://localhost:8080/<some-path>`
 
-In order to check if you've successfully completed this task you can run the following command. Check code inside `tests.py` if you want to see how a (simple) test is written in Django.
-
-```bash
-$ make test
-```
-
 
 #### 1. hello_world view:
 
 Implement a simple view under `/hello-world` URL that returns a 'Hello World' string. Use the function `HttpResponse()` imported from Django.
 
 <img src="https://user-images.githubusercontent.com/2788551/39313217-de76c182-4947-11e8-8aa8-e69b4e817526.png" width="50%" height="50%">
+
+In order to check if you've successfully completed this task you can run the following command. Check code inside `tests.py` if you want to see how a (simple) test is written in Django.
+
+```bash
+$ make test
+```
 
 
 #### 2. current_date view:
