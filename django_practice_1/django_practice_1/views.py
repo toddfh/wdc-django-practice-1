@@ -44,9 +44,8 @@ def next_birthday(request, birthday):
 # Use /profile URL
 def profile(request):
     """
-        Render the 'profile.html' sending the context given below, using the
-        'render' function imported from Django.
-        Make sure to replace the values inside the template in the proper places.
+        This view should render the template 'profile.html'. Make sure you return
+        the correct context to make it work.
     """
     pass
 
